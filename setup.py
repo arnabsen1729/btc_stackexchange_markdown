@@ -7,11 +7,12 @@ def read(fname):
 
 
 setup(
-    name="stackoverflow_markdown",
+    name="btc_stackexchange_markdown",
     version="0.1.0",
     author="Arnab Sen",
     author_email="arnabsen1729@gmail.com",
-    description=("Convert stackoverflow answers to markdown format."),
+    description=(
+        "Fetch bitcoin stackexchange answers and export as markdown files."),
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
@@ -19,7 +20,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'somd = stackoverflow_markdown.scripts.somd:cli',
+            'btcmd = btc_stackexchange_markdown.scripts.btcmd:cli',
         ],
     },
     long_description=read('README.md'),

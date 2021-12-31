@@ -1,5 +1,5 @@
 import click
-from stackoverflow_markdown.parser import parse_data
+from btc_stackexchange_markdown.parser import parse_data
 
 
 @click.command()

@@ -1,5 +1,5 @@
 import html2text
-from stackoverflow_markdown.stackexchange import get_data
+from btc_stackexchange_markdown.stackexchange import get_data
 
 h = html2text.HTML2Text()
 h.body_width = 0
